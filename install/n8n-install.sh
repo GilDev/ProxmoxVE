@@ -31,6 +31,7 @@ msg_ok "Set up Node.js Repository"
 msg_info "Installing Node.js"
 $STD apt-get update
 $STD apt-get install -y nodejs
+$STD npm install -g npm@11.1.0
 msg_ok "Installed Node.js"
 
 msg_info "Installing n8n (Patience)"
